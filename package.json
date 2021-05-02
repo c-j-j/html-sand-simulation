@@ -1,0 +1,16 @@
+{
+  "name": "sand-sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esbuild src/app.ts --servedir=www --outdir=www/js --bundle"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  }
+}
